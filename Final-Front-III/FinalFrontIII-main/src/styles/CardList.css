@@ -1,0 +1,39 @@
+/* Estilos para las tarjetas */
+.card {
+    border: 1px solid #ccc;
+    padding: 16px;
+    margin: 8px;
+    width: 350px !important; /* Ajusta el ancho de las tarjetas según tus preferencias */
+    box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1);
+    background-color: #fff;
+    border-radius: 8px;
+    transition: transform 0.2s ease-in-out;
+  }
+  
+  /* Estilos para la lista de tarjetas */
+  .card-list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    align-items: flex-start;
+    gap: 16px; /* Espacio entre tarjetas */
+  }
+  
+  /* Estilos para animar las tarjetas cuando se les pasa el mouse */
+  .card:hover {
+    transform: translateY(-5px); /* Cambia la posición vertical al pasar el mouse */
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);
+  }
+  
+
+  .doctor-image {
+    width: 100%; /* Haz que la imagen ocupe el 100% del ancho de la tarjeta */
+    height: auto; /* Ajusta la altura automáticamente para mantener la proporción */
+  }
+  
+
+  .card-list-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}

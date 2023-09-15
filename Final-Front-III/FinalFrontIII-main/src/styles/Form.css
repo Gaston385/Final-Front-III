@@ -1,0 +1,46 @@
+/* Estilo para el formulario */
+.form-container {
+    width: 100%;
+    max-width: 400px;
+    margin: auto;
+    padding: 20px;
+    background-color: #f9f9f9;
+    border-radius: 10px;
+    box-sizing: border-box; /* Asegura que el padding no afecte el ancho total */
+  }
+  
+  /* Estilo para los campos de entrada y el botón */
+  .form-container input,
+  .form-container button {
+    width: calc(100% - 20px); /* Resta el espacio de los márgenes */
+    padding: 5px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-sizing: border-box;
+  }
+  
+  /* Estilo para el botón */
+  .form-container button {
+    background-color: #4caf50;
+    color: #fff;
+    cursor: pointer;
+    margin-left: 2px;
+  }
+  
+
+
+
+
+/* Estilo para el mensaje de respuesta */
+.response-message {
+  font-weight: bold;
+}
+
+.response-message.success {
+  color: #4caf50; /* Color verde para mensajes de éxito */
+}
+
+.response-message.error {
+  color: #ff0000; /* Color rojo para mensajes de error */
+}

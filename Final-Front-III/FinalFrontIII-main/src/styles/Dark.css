@@ -1,0 +1,12 @@
+/* Estilos para el modo oscuro */
+.dark-mode {
+    background-color: black;
+    color: black;
+  }
+  
+
+  body.dark-theme {
+    background-color: black; /* Cambia el color de fondo para el tema oscuro */
+    color: white; /* Cambia el color del texto para que sea legible en fondo oscuro */
+  }
+  
